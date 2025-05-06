@@ -43,23 +43,4 @@ Built with **PHP**, **MariaDB**, and an **HTTP server**, it allows users to leav
 | `style.css`      | All frontend layout and RWD design          |
 | `schema.sql`     | SQL schema to create the `messages` table   |
 
----
 
-## 📄 Documentation
-
-- `Contributors.md` — project member list  
-- `Installation.md` — step-by-step setup guide  
-- `UserGuide.md` — how to use the message wall  
-- `AdminGuide.md` — how to manage and maintain the system  
-
----
-
-## 📷 Screenshot (optional)
-
-> *(Insert screenshot image link or markdown here when available)*
-
----
-
-## 🛠️ License
-
-This project is for academic/demo use only. You may modify or extend it as needed.
