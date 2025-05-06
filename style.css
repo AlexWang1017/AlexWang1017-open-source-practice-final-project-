@@ -1,0 +1,320 @@
+/* === 全站基礎樣式 === */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f0f2f5;
+    color: #333;
+    max-width: 900px;
+    margin: 0 auto;
+    padding: 10px;
+}
+
+h1, h2 {
+    color: #005f99;
+}
+
+/* === 表單（留言） === */
+form {
+    background-color: #ffffff;
+    padding: 15px;
+    border-radius: 8px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    margin-bottom: 20px;
+    max-width: 600px;
+}
+
+input[type="text"],
+input[type="date"],
+textarea {
+    width: 100%;
+    padding: 10px;
+    margin-top: 8px;
+    margin-bottom: 12px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    box-sizing: border-box;
+    font-size: 14px;
+}
+
+/* === 按鈕 === */
+button {
+    background-color: #005f99;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 14px;
+}
+
+button:hover {
+    background-color: #004370;
+}
+
+/* === 一般段落樣式 === */
+p {
+    background-color: #fff;
+    padding: 10px;
+    border-left: 4px solid #005f99;
+    margin-bottom: 10px;
+    border-radius: 4px;
+    word-wrap: break-word;
+}
+
+/* === 管理員登入按鈕區塊 === */
+.admin-login {
+    position: absolute;
+    top: 20px;
+    right: 20px;
+    font-size: 13px;
+}
+
+.admin-login a {
+    background-color: #005f99;
+    color: #fff;
+    padding: 20px 40px;
+    border-radius: 8px;
+    text-decoration: none;
+    font-size: 13px;
+}
+
+.admin-login a:hover {
+    background-color: #004370;
+}
+
+/* === 管理登入頁 === */
+.login-container {
+    width: 100%;
+    max-width: 400px;
+    margin: 80px auto;
+    background-color: #fff;
+    padding: 30px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    text-align: center;
+    position: relative;
+}
+
+
+
+.login-container h1 {
+    margin-bottom: 20px;
+}
+
+.login-container input[type="text"],
+.login-container input[type="password"] {
+    width: 80%;
+    padding: 10px;
+    margin: 5px 0;
+    font-size: 16px;
+}
+
+.login-container button {
+    padding: 10px 20px;
+    font-size: 16px;
+    background-color: #005f99;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.login-container button:hover {
+    background-color: #004370;
+}
+
+.password-wrapper {
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.password-wrapper input {
+    flex: 1;
+}
+
+.eye-icon {
+    position: absolute;
+    right: 10%;
+    cursor: pointer;
+    font-size: 18px;
+    user-select: none;
+    color: #555;
+}
+
+
+/* === 留言區塊 === */
+.message-block {
+    background-color: #fff;
+    border-left: 4px solid #005f99;
+    padding: 10px 15px;
+    margin-bottom: 12px;
+    border-radius: 4px;
+    max-width: 800px;
+}
+
+.message-header {
+    font-weight: bold;
+    margin-bottom: 4px;
+    color: #333;
+}
+
+.message-content {
+    padding-left: 20px;
+    text-align: left;
+    color: #444;
+    margin-bottom: 6px;
+    white-space: pre-wrap;
+    word-break: break-word;
+}
+
+.message-actions {
+    font-size: 14px;
+    color: #555;
+    padding-left: 20px;
+}
+
+.message-actions a {
+    margin-left: 5px;
+    text-decoration: none;
+    color: #005f99;
+}
+
+.message-actions a:hover {
+    text-decoration: underline;
+}
+
+/* === 按讚按鈕 === */
+.like-button {
+    display: inline-block;
+    font-size: 18px;
+    padding: 4px 8px;
+    background-color: #eef6fb;
+    border-radius: 6px;
+    color: #005f99;
+    text-decoration: none;
+    transition: background-color 0.2s ease;
+}
+
+.like-button:hover {
+    background-color: #d8ecf7;
+    cursor: pointer;
+}
+
+/* === 搜尋表單 === */
+.search-form {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+    margin-bottom: 20px;
+    max-width: 800px;
+}
+
+.search-form input[type="text"],
+.search-form input[type="date"],
+.search-form select {
+    padding: 8px;
+    font-size: 14px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+}
+
+.search-form button {
+    padding: 8px 14px;
+    font-size: 14px;
+    background-color: #005f99;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.search-form button:hover {
+    background-color: #004370;
+}
+.date-label {
+    align-self: center;
+    font-size: 14px;
+    padding: 8px 0;
+    margin-right: -6px;
+    color: #333;
+}
+
+mark {
+    background-color: #cce5ff;
+    color: #003366;
+    font-weight: bold;
+    padding: 2px 4px;
+    border-radius: 3px;
+}
+.message-content a {
+    color: #005f99;
+    text-decoration: underline;
+    word-break: break-word;
+}
+
+.message-content a:hover {
+    color: #d32f2f;
+}
+
+
+/* === 響應式 RWD 支援 === */
+@media screen and (max-width: 600px) {
+    h1 {
+        font-size: 20px;
+    }
+
+    .search-form {
+        flex-direction: column;
+    }
+
+    .search-form input,
+    .search-form select,
+    .search-form button {
+        width: 100%;
+    }
+
+    .admin-login {
+        position: static;
+        text-align: right;
+        margin-bottom: 10px;
+    }
+
+    .message-header {
+        font-size: 14px;
+    }
+
+    .message-content {
+        font-size: 15px;
+    }
+
+    .message-actions {
+        font-size: 14px;
+    }
+
+    .like-button {
+        font-size: 16px;
+        padding: 4px 10px;
+    }
+}
+
+/* === 📱 手機底部固定留言表單 === */
+@media screen and (max-width: 600px) {
+    form[action="submit.php"] {
+        position: fixed;
+        bottom: 0;
+        left: 0;
+        width: 100%;
+        background-color: #fff;
+        padding: 10px;
+        border-top: 1px solid #ccc;
+        box-shadow: 0 -2px 5px rgba(0,0,0,0.1);
+        z-index: 1000;
+    }
+
+    body {
+        padding-bottom: 220px;
+    }
+}
+
+
