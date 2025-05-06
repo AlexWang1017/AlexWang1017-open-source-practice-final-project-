@@ -7,23 +7,23 @@ Built with **PHP**, **MariaDB**, and an **HTTP server**, it allows users to leav
 
 ## 🌟 Features
 
-- 📝 Leave public messages with nickname and content
-- ⏰ Timestamped message display (latest first)
-- ❤️ Like button for each message
-- 🔍 Keyword search and content highlighting
-- 📅 Date range filtering + sort by likes or time
-- 🏷️ Hashtag linking (e.g., `#event`)
-- 🔐 Admin login with delete access
-- 📱 Responsive design (RWD for mobile)
-- 🛠️ Admin dashboard (admin.php) for centralized control
+- 📝 Leave public messages with nickname and content  
+- ⏰ Timestamped message display (latest first)  
+- ❤️ Like button for each message  
+- 🔍 Keyword search and content highlighting  
+- 📅 Date range filtering + sort by likes or time  
+- 🏷️ Hashtag linking (e.g., `#event`)  
+- 🔐 Admin login with delete access  
+- 📱 Responsive design (RWD for mobile)  
+- 🛠️ Admin dashboard (`admin.php`) for centralized control  
 
 ---
 
 ## 🖥️ Runtime Environment
 
 - **Hardware**: Raspberry Pi Zero 2 W  
-- **Web Server**: Apache2 (or any HTTP server)  
-- **Scripting**: PHP 8+ (no other languages used)  
+- **Web Server**: Apache2 (or compatible HTTP server)  
+- **Scripting**: PHP 8+ (no JavaScript frameworks required)  
 - **Database**: MariaDB  
 
 ---
@@ -42,5 +42,32 @@ Built with **PHP**, **MariaDB**, and an **HTTP server**, it allows users to leav
 | `db.php`         | Centralized DB connection config            |
 | `style.css`      | All frontend layout and RWD design          |
 | `schema.sql`     | SQL schema to create the `messages` table   |
+
+---
+
+## 📄 Documentation
+
+| File                          | Description                                                  |
+|-------------------------------|--------------------------------------------------------------|
+| [`Installation.md`](Installation.md) | Step-by-step setup instructions for Raspberry Pi 0 2W      |
+| [`UserGuide.md`](UserGuide.md)       | Guide for general users: how to post, like, search, etc.   |
+| [`AdminGuide.md`](AdminGuide.md)     | Admin-only features: login, delete, manage, troubleshoot   |
+| [`Contributors.md`](Contributors.md) | List of contributors and student/team members              |
+
+---
+
+## ✅ Getting Started
+
+If you're ready to install the system, start with:
+
+👉 [`Installation.md`](Installation.md)
+
+It includes:
+- Installing Apache + PHP + MariaDB
+- Importing `schema.sql`
+- Setting up database user and permissions
+- Verifying everything works on Raspberry Pi
+
+---
 
 
