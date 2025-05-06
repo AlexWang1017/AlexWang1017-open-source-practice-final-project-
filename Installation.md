@@ -1,4 +1,4 @@
-# 🛠️ Installation Guide – Smart Message Wall
+# 🛠️ Installation Guide – Simple Message Wall
 
 This guide explains how to install and run the Simple Message Wall project on a **Raspberry Pi Zero 2 W**.
 
