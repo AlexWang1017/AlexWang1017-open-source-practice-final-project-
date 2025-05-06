@@ -1,4 +1,4 @@
-# 👑 Admin Guide – Smart Message Wall
+# 👑 Admin Guide – Simple Message Wall
 
 This guide explains how to configure, access, and maintain the **admin system** for the Simple Message Wall.
 
