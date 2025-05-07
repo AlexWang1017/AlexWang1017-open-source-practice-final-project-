@@ -46,7 +46,7 @@ sudo mariadb
 
 Then inside MariaDB:
 SOURCE /var/www/html/message_wall/schema.sql;
-EXIT;
+
 
 This creates the database message_wall and a table called messages.
 
