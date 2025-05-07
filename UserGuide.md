@@ -34,9 +34,9 @@ When you visit the website, you'll see a list of all recent messages posted by u
 
 ---
 
-## ❤️ Liking Messages
+## 👍 Liking Messages
 
-- Click the **heart icon ❤️** or **Like button** on any message to increase its like count.
+- Click the icon 👍  on any message to increase its like count.
 - Likes are stored immediately in the database.
 
 ---
