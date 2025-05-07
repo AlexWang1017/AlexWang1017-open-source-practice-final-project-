@@ -3,7 +3,7 @@
 <html lang="zh-Hant">
 <head>
     <meta charset="UTF-8">
-    <title>Smart Message Wall</title>
+    <title>Simple Message Wall</title>
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
@@ -16,7 +16,7 @@
     <?php endif; ?>
 </div>
 
-<h1>Smart Message Wall</h1>
+<h1>Simple Message Wall</h1>
 
 <!-- 留言輸入表單 -->
 <form action="submit.php" method="post">
