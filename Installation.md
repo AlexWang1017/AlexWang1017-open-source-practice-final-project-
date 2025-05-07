@@ -40,6 +40,12 @@ sudo systemctl restart apache2
 
 ### 3. Clone the Project (or upload manually)
 
+To install Git (if not already installed):
+
+```bash
+sudo apt install git
+```
+
 If using GitHub:
 
 ```bash
