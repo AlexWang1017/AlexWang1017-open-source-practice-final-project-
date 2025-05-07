@@ -34,7 +34,7 @@ sudo systemctl restart apache2
 3. Clone the Project (or upload manually)
 If using GitHub:
 cd /var/www/html/
-sudo git clone https://github.com/yourusername/simple-message-wall.git
+sudo git clone https://github.com/AlexWang1017/AlexWang1017-open-source-practice-final-project-.git
 sudo chown -R www-data:www-data simple-message-wall
 
 Or upload your files (e.g., using SCP or VS Code remote SSH) into /var/www/html/message_wall/
