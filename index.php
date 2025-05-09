@@ -1,4 +1,8 @@
-<?php require 'db.php'; ?>
+<?php 
+require 'db.php'; 
+date_default_timezone_set('Asia/Taipei');
+?>
+
 <!DOCTYPE html>
 <html lang="zh-Hant">
 <head>

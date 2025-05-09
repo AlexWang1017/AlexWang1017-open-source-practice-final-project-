@@ -1,6 +1,9 @@
 <?php
 session_start();
 
+date_default_timezone_set('Asia/Taipei');
+
+
 $host = 'localhost';
 $db   = 'message_wall';
 $user = 'user';
