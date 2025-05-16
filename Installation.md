@@ -50,7 +50,7 @@ If using GitHub:
 
 ```bash
 cd /var/www/html/
-sudo git clone https://github.com/AlexWang1017/AlexWang1017-open-source-practice-final-project-.git
+sudo git clone https://github.com/AlexWang1017/AlexWang1017-open-source-practice-final-project-.git .
 sudo chown -R www-data:www-data simple-message-wall
 ```
 
