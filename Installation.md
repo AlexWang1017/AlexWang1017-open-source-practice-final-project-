@@ -52,7 +52,8 @@ If using GitHub:
 mkdir /var/www/html/message_wall
 cd /var/www/html/message_wall
 sudo git clone https://github.com/AlexWang1017/AlexWang1017-open-source-practice-final-project-.git .
-sudo chown -R www-data:www-data simple-message-wall
+sudo chown -R www-data:www-data /var/www/html/message_wall
+
 ```
 
 Or upload your files (e.g., using SCP or VS Code remote SSH) into `/var/www/html/message_wall/`
