@@ -49,7 +49,8 @@ sudo apt install git
 If using GitHub:
 
 ```bash
-cd /var/www/html/
+mkdir /var/www/html/message_wall
+cd /var/www/html/message_wall
 sudo git clone https://github.com/AlexWang1017/AlexWang1017-open-source-practice-final-project-.git .
 sudo chown -R www-data:www-data simple-message-wall
 ```
