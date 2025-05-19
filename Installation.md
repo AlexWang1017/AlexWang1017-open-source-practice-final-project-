@@ -69,7 +69,7 @@ sudo mariadb
 Then inside MariaDB:
 
 ```sql
-SOURCE /var/www/html/message_wall/schema.sql;
+SOURCE /var/www/html/message_wall/src/schema.sql;
 ```
 
 This creates the database `message_wall` and a table called `messages`.
@@ -89,7 +89,7 @@ Make sure this matches the credentials used in `db.php`
 ### 6. Set Permissions (optional)
 
 ```bash
-sudo chown -R www-data:www-data /var/www/html/message_wall
+sudo chown -R www-data:www-data /var/www/html/message_wall/src
 ```
 
 ---

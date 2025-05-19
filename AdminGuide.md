@@ -11,7 +11,7 @@ To access the admin dashboard:
 1. Open a browser and go to:
 
 ```
-http://<your_rpi_ip>/message_wall/login.php
+http://<your_rpi_ip>/message_wall/src/login.php
 ```
 
 2. Enter the default credentials:
