@@ -99,7 +99,7 @@ sudo chown -R www-data:www-data /var/www/html/message_wall/src
 Open a browser and visit:
 
 ```
-http://<your_rpi_ip>/message_wall/
+http://<your_rpi_ip>/message_wall/src
 ```
 
 You should see the message wall interface. Try posting a message.
@@ -111,4 +111,4 @@ You should see the message wall interface. Try posting a message.
 * **Username:** admin
 * **Password:** 0000
 
-Go to `/message_wall/login.php` to access the admin dashboard.
+Go to `/message_wall/src/login.php` to access the admin dashboard.
