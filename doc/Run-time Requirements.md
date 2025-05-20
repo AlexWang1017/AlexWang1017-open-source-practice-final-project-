@@ -35,29 +35,9 @@ The system is designed to run on Raspberry Pi Zero 2 W hardware, with the follow
 
 ---
 
-## 4. Network Configuration
-
-- When running in a QEMU virtual environment, the following port forwarding is recommended:
-
-```bash
--net user,hostfwd=tcp::8080-:80,hostfwd=tcp::8822-:22
-```
-
-- Web service can be accessed via: `http://localhost:8080`
-- SSH login available at: `ssh pi@localhost -p 8822` (if SSH is enabled)
-
----
-
-## 5. Browser Compatibility
+## 4. Browser Compatibility
 
 - Supports modern browsers: Chrome, Firefox, Edge, Safari
 - Fully responsive layout for both desktop and mobile devices
-
----
-
-## 6. User Roles
-
-- **General Users**: Post messages, like, search, and sort
-- **Admin**: Log in, view all messages, and delete inappropriate content
 
 ---
