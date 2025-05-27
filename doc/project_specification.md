@@ -73,4 +73,4 @@ Table: messages
 
 ## 📷 Message Table Image (ERD)
 
-![Message Table](image.png)
+![ERD for Message Wall](image.PNG)
