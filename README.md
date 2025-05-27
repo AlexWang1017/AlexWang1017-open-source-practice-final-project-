@@ -40,8 +40,9 @@ Built with **PHP**, **MariaDB**, and an **HTTP server**, it allows users to leav
 | `admin.php`      | Admin dashboard for managing messages       |
 | `like.php`       | Like count processor                        |
 | `db.php`         | Centralized DB connection config            |
+| `tag.php`        | Messages tagged                             |
 | `style.css`      | All frontend layout and RWD design          |
-| `schema.sql`     | SQL schema to create the `messages` table   |
+| `schema.sql`     | SQL schema to create  tables                |
 
 ---
 
