@@ -75,7 +75,8 @@ function enrichText($text) {
     // 轉網址
     $text = preg_replace('/(https?:\/\/[^\s<]+)/i', '<a href="$1" target="_blank" rel="noopener noreferrer">$1</a>', $text);
     // 轉 #標籤
-    $text = preg_replace('/#(\w{1,30})/u', '<a href="?search=%23$1">#$1</a>', $text);
+    $text = preg_replace('/#(\w{1,30})/u', '<a href="tag.php?name=$1">#$1</a>', $text);
+
     return $text;
 }
 
