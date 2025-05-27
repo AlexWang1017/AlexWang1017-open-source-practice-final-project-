@@ -8,6 +8,8 @@ This project was created as part of an academic assignment for the **Web Applica
 |----------------|----------------|----------------|--------------------------|
 | Alex Wang      | 王承軒         | 410850449       | Full-stack development, documentation, deployment |
 | [其他成員姓名] | [其他中文名]   | [學號]          | [前端 / 資料庫 / 測試等] |
+| [其他成員姓名] | [其他中文名]   | [學號]          | [前端 / 資料庫 / 測試等] |
+
 
 
 
