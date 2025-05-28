@@ -23,7 +23,6 @@ You will need:
 
 ```bash
 sudo apt update
-sudo apt upgrade
 ```
 
 ### 2. Install Apache, PHP, MariaDB
