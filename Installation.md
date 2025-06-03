@@ -95,6 +95,12 @@ sudo chown -R www-data:www-data /var/www/html/message_wall
 
 ## ✅ Test It!
 
+You can check your Raspberry Pi’s IP address with:
+
+```bash
+hostname -I
+```
+
 Open a browser and visit:
 
 ```
