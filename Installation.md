@@ -88,7 +88,7 @@ Make sure this matches the credentials used in `db.php`
 ### 6. Set Permissions (optional)
 
 ```bash
-sudo chown -R www-data:www-data /var/www/html/message_wall/src
+sudo chown -R www-data:www-data /var/www/html/message_wall
 ```
 
 ---
